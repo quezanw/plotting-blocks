@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(165, 163, 163);
+  padding: 2.5%;
+}
+
+section {
+  margin-bottom: 2.5%;
+}
+
+section.top {
+  background-color: green;
+  width: 95%;
+  height: 22.5%;
+}
+
+section.bottom {
+  height: 72.5%;
+}
+
+section.bottom > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.left-panel {
+  background-color: blue;
+  height: 70%;
+  width: 20%;
+  margin-right: 2.5%;
+}
+
+div.right-panel {
+  background-color: red;
+  height: 100%;
+  width: 72.5%;
+}
+
+div.right-panel__top {
+  height: 50%;
+  width: 95%;
+  padding: 2.5%;
+}
+
+div.right-panel__top--block {
+  display: inline-block;
+  background-color: yellow;
+  height: 90%;
+  width: 30%;
+  margin-right: 2.5%;
+}
+
+div.right-panel__bottom {
+  background-color: purple;
+  width: 91.5%;
+  height: 30%;
+  margin-left: 2.5%;
+}
